@@ -604,7 +604,7 @@ static void page3_create(lv_obj_t * parent)
     lv_obj_align(lbl_th_vol, LV_ALIGN_TOP_RIGHT, -10, 96);
 
     lbl = label_create(card, &font_cn_16, COLOR_DIM);
-    lv_label_set_text(lbl, "Modbus: 6=\xE7\x94\xB5\xE6\xB5\x81\xE9\x98\x88\xE5\x80\xBC 7=\xE7\x94\xB5\xE5\x8E\x8B\xE9\x98\x88\xE5\x80\xBC");
+    lv_label_set_text(lbl, "Modbus: 7=\xE7\x94\xB5\xE6\xB5\x81\xE9\x98\x88\xE5\x80\xBC 8=\xE7\x94\xB5\xE5\x8E\x8B\xE9\x98\x88\xE5\x80\xBC");
     lv_obj_set_pos(lbl, 10, 128);
 
     /* ²Ù×÷ËµÃ÷¿¨Æ¬ */
