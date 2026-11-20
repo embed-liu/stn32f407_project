@@ -60,6 +60,20 @@
 | KEY1 | 阈值 -50 |
 | KEY_UP | 阈值 +50 |
 
+## 运行与验证
+
+硬件实物（F407ZGT6 开发板 + 3.5 寸彩屏；屏上画面为早期裸写刷屏版本的调试截图，当前固件为 LVGL 三页界面）：
+
+![硬件实物](image/device-run.jpg)
+
+Modbus Poll 读取保持寄存器（ADC 原始值、电机剩余步数、保护阈值、速度）：
+
+![Modbus Poll 读保持寄存器](image/QQ20261001-155507.png)
+
+Modbus Poll 写单寄存器（下发目标步数）：
+
+![Modbus Poll 写单寄存器](image/QQ20261001-155545.png)
+
 ## 目录结构
 
 ```
