@@ -416,7 +416,7 @@ static void app_header_create(lv_obj_t * parent)
     lv_obj_clear_flag(head, LV_OBJ_FLAG_SCROLLABLE);
 
     lv_obj_t * title = label_create(head, &font_cn_24, COLOR_TEXT);
-    lv_label_set_text(title, "\xE8\xBE\xB9\xE7\xBC\x98\xE7\xBD\x91\xE5\x85\xB3\xE7\x9B\x91\xE6\x8E\xA7");
+    lv_label_set_text(title, "\xE5\xB7\xA5\xE4\xB8\x9A\xE7\x9B\x91\xE6\x8E\xA7\xE8\x8A\x82\xE7\x82\xB9");
     lv_obj_set_pos(title, 10, 11);
 
     lbl_status = label_create(head, &font_cn_16, COLOR_DIM);
